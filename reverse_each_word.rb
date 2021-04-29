@@ -3,5 +3,5 @@ def reverse_each_word(string)
   array.collect! do |flipped|
     flipped.reverse
   end
-  rray.join(" ")
+  array.join(" ")
 end
